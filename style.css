@@ -1,0 +1,59 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Seções */
+section {
+    margin: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Caixas de cores */
+.color-box {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+/* Cores RGB */
+.rgb-red { background-color: rgb(255, 0, 0); }
+.rgb-green { background-color: rgb(0, 255, 0); }
+.rgb-blue { background-color: rgb(0, 0, 255); }
+
+/* Cores CMYK */
+.cmyk-cyan { background-color: cyan; color: black; }
+.cmyk-magenta { background-color: magenta; }
+.cmyk-yellow { background-color: yellow; color: black; }
+.cmyk-black { background-color: black; }
+
+/* Rodapé */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
